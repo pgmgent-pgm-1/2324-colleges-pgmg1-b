@@ -19,3 +19,10 @@ text = text + " Ander stukje tekst";
 text += " Ander stukje tekst";
 
 console.log(text);
+
+const word = "hallo"; // string
+const day = 21; // number
+const isThursday = true; // boolean
+
+let x;
+console.log(x); // undefined
