@@ -27,3 +27,7 @@ if (year > 2020) {
 } else {
   console.log("Het jaar is voor 2020");
 }
+
+// is x deelbaar door 2?
+let x = 10;
+console.log(x % 2 === 0); // deelbaar door 2? true
