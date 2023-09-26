@@ -31,3 +31,7 @@ if (year > 2020) {
 // is x deelbaar door 2?
 let x = 10;
 console.log(x % 2 === 0); // deelbaar door 2? true
+
+const name = "Michael"; // string
+const PI = 3.14; // number
+let y; // undefined
