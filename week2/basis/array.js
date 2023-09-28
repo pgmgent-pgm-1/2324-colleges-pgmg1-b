@@ -27,3 +27,18 @@ const socialMedia = [
 for (let i = 0; i < socialMedia.length; i++) {
   console.log(`${socialMedia[i]} is een social media platform`);
 }
+
+// aanpassen waarde in array
+socialMedia[0] = "Ander platform";
+console.log(socialMedia);
+/* 
+[
+  'Ander platform',
+  'X',
+  'Instagram',
+  'MySpace',
+  'TikTok',
+  'Netlog',
+  'Discord'
+]
+*/

@@ -35,3 +35,9 @@ console.log(x % 2 === 0); // deelbaar door 2? true
 const name = "Michael"; // string
 const PI = 3.14; // number
 let y; // undefined
+const isThursday = true;
+const items = ["⚠️", "‼️"]; // array
+
+console.log(items.length); // 2
+console.log(items[items.length - 1]); // "!!"
+console.log(items[0]); // ⚠️
